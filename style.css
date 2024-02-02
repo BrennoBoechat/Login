@@ -48,6 +48,12 @@
   font-size: 1em;
   transition: 0.5s;
 }
+.inputBox i {
+  font-size: 20px;
+  cursor: pointer;
+  position: absolute;
+  right: 5%;
+}
 .inputBox span {
   position: absolute;
   left: 0;
