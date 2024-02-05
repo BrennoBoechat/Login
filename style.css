@@ -127,7 +127,7 @@
 
 .login-button {
   width: 100%;
-  background: none;
+  background: transparent;
   border: 2px solid white;
   font-family: "Sora", sans-serif;
   text-transform: uppercase;
@@ -164,6 +164,26 @@
 
 .login-button:hover::before {
   transform: scaleX(1);
+}
+
+.modal-container {
+  background: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: grid;
+  place-items: center;
+}
+
+.modal {
+  background: #fff;
+  width: 550px;
+  height: 500px;
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4392156863);
 }
 
 body {

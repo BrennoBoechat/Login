@@ -10,3 +10,8 @@ function showPassword(){
         buttonShowPass.classList.replace('bi-eye-slash', 'bi-eye')
     }
 }
+
+
+var formSignin = document.querySelector('#signin')
+var formSignup = document.querySelector('#signin')
+var formSignin = document.querySelector('#signin')
