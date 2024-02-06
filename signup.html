@@ -14,15 +14,15 @@
     <div class="box-container glass">
         <h1>Cadastro</h1>
 
-        <form>
+        <form id="signupForm">
             <div class="form-box">
                 <div class="inputBox">
-                    <input type="text" required/>
+                    <input id="name" type="text" required/>
                     <span>Seu nome</span>
                 </div>
 
                 <div class="inputBox">
-                    <input type="email" required/>
+                    <input id="email" type="email" required/>
                     <span>Seu email</span>
                 </div>
                 
@@ -33,7 +33,7 @@
                 </div>
 
                 <div class="button-container">
-                    <button class="login-button">
+                    <button onclick="signup()" type="button" class="login-button">
                         Cadastrar
                     </button>
                     <a href="./index.html">Voltar para login</a>
