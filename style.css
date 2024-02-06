@@ -94,6 +94,10 @@
   margin-bottom: 15px;
 }
 
+.inputBox:nth-child(2) {
+  margin-bottom: 15px;
+}
+
 .remember {
   display: flex;
   margin-top: 15px;
@@ -127,7 +131,7 @@
 
 .login-button {
   width: 100%;
-  background: transparent;
+  background: #fff;
   border: 2px solid white;
   font-family: "Sora", sans-serif;
   text-transform: uppercase;
@@ -213,4 +217,5 @@ img {
 a {
   cursor: pointer;
   text-decoration: none;
+  color: inherit;
 }/*# sourceMappingURL=style.css.map */

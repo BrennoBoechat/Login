@@ -95,6 +95,10 @@ border-radius: 2px;
     margin-bottom: 15px;
 }
 
+.inputBox:nth-child(2){
+    margin-bottom: 15px;
+}
+
 .remember{
     display: flex;
     margin-top: 15px;
@@ -131,7 +135,7 @@ border-radius: 2px;
 
 .login-button{
     width: 100%;
-    background: transparent;
+    background: #fff;
     border: 2px solid white;
     font-family: "Sora", sans-serif;
     text-transform: uppercase;
