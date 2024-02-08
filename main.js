@@ -71,3 +71,10 @@ function login() {
         alert('Falha no login!');
     }
 }
+
+document.getElementById("loginForm").addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    document.getElementById("loginUsername").value = "";
+    document.getElementById("loginPassword").value = "";
+});
