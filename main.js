@@ -1,4 +1,6 @@
-function showPassword(){
+AOS.init();
+
+function showPasswordSignup(){
     var inputPass = document.getElementById('password')
     var buttonShowPass = document.getElementById('button-password')
 
